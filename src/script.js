@@ -233,7 +233,7 @@ const tick = () => {
 function bindEvents(){
     let btn1 = document.getElementById("btn1");
     btn1.addEventListener("click", function(){
-        console.log('1 clicked')
+        objects.refridge.
     })
 }
 
