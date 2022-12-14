@@ -383,4 +383,22 @@ function approachToObject(target) {
 
 }
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyA-7vG62rVM8RThMNCDmU2JgX-gr7bRGPc",
+  authDomain: "cornell-box-deitys-office.firebaseapp.com",
+  projectId: "cornell-box-deitys-office",
+  storageBucket: "cornell-box-deitys-office.appspot.com",
+  messagingSenderId: "478439101966",
+  appId: "1:478439101966:web:85ab93f2c6952827028e5f"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 tick()
